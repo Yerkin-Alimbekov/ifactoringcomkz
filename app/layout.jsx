@@ -11,12 +11,12 @@ const outfit = Outfit({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Факторинг для поставщиков',
-  description: 'ifactoringcompany.com.kz',
+  description: 'Индустриальная Факторинговая Компания factoring.com.kz',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang='ru' suppressHydrationWarning>
       <body className={outfit.className}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
